@@ -1,29 +1,40 @@
-# Water Potability Classification
-This project demonstrates how to build and train a custom Keras sequential model within a Scikit-learn pipeline to classify water samples based on their suitability for human consumption (potability).
+# # Water Potability Classification 💦
 
-# Project Goal
-The primary goal is to create and evaluate a custom deep learning model using TensorFlow/Keras, wrapped in Scikeras, to predict water potability based on various quality parameters. The process includes data loading, preprocessing using a Scikit-learn pipeline, defining a custom Keras model, training the model, and evaluating its performance.
+This project demonstrates how to build and train a custom Keras sequential model within a Scikit-learn and TensorFlow pipeline to classify water samples based on their suitability for human consumption (portability).
 
-# Dataset
-The dataset used for this project is the Water Quality and Potability dataset available on Kaggle.
+## FEATURES 🧐
+This dataset is found at the link: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability?select=water_potability.csv
 
-    Source: https://drive.google.com/file/d/1VXHjV4Hi7d__I9v2KYudh32OVud3aEvm/view?usp=sharing
-    Description: This dataset contains various water quality parameters (pH, Hardness, Solids, Chloramines, Sulfate, Conductivity, Organic_carbon, Trihalomethanes, Turbidity) and a target variable Potability (0 for not potable, 1 for potable). The dataset includes missing values that are handled during preprocessing.
+It has 10 features, with Potability being the target using Binary Classification. 
+The rest being pH, Hardness, Solids, Chloramines, Sulfate, Conductivity, Organic_carbon, Trihalomethanes, Turbidity
 
-# Technologies Used
+## Installation 📥
 
-    Python 3.x
+Clone the repository below to get the collab notebook
+
+```bash
+git clone https://github.com/Branis333/Water-Quality-Model-peer9.git
+```
+
+## Technologies used ⚙️
+
+```python
+Python 3.x
     Pandas
     NumPy
     scikit-learn
     TensorFlow
     Keras
-    Scikeras (Keras wrapper for Scikit-learn)
-    Matplotlib (for plotting)
-# Installation
-1 . git clone https://github.com/Branis333/Water-Quality-Model-peer9.git
+    Scikeras 
+    Matplotlib
+```
 
-2 . pip install pandas numpy scikit-learn tensorflow matplotlib scikeras
+## # Project Goal 💡
 
-# Specifications
-The Notebooks in this repository use different methods , optimisers , regularlizers , epochs , learning rates among others . So clearly check what's specified in that specific notebook
+
+The primary goal is to create and evaluate a custom deep learning model using TensorFlow/Keras, to predict water potability based on various quality parameters. The process includes data loading, preprocessing using a Scikit-learn pipeline, defining a custom Keras model, training the model, and evaluating its performance.
+Different methods, optimisers, regularizers, and techniques were used in the model's training in other notebooks. Choose yours carefully  
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
